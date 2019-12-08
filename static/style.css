@@ -1,0 +1,150 @@
+/*! Source Code Pro
+ * Copyright 2010-2019 Adobe (https://www.adobe.com), with Reserved Font Name 'Source'. All Rights Reserved.
+ * Source is a trademark of Adobe in the United States and/or other countries.
+ * This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ * The license is available at: https://github.com/adobe-fonts/source-code-pro/blob/release/LICENSE.md
+*/
+@font-face {
+	font-family: 'Source Code Pro';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Source Code Pro Regular'), local('SourceCodePro-Regular'), url('webfonts/SourceCodePro-Regular.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*! League Gothic
+ * Copyright (c) 2010, Caroline Hadilaksono & Micah Rich, with Reserved Font Name 'League Gothic'.
+ * This Font Software is licensed under the SIL Open Font License, Version 1.1.
+ * The license is available at: https://www.fontsquirrel.com/license/League-Gothic
+*/
+@font-face {
+	font-family: 'League Gothic Italic';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('League Gothic Italic'), local('LeagueGothic-Italic'), url('webfonts/LeagueGothic-Italic.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+::selection { background-color: #fff; color: #000; }
+
+html {
+	background-color: #000;
+	color: #fff;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+	font-size: 14px;
+	text-rendering: optimizeLegibility;
+}
+
+body { margin: 25px 0 25px 0; text-align: left; }
+
+.container {
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) { .container { max-width: 540px; } }
+@media (min-width: 768px) { .container { max-width: 720px; } }
+@media (min-width: 992px) { .container { max-width: 960px; } }
+@media (min-width: 1200px) { .container { max-width: 1140px; } }
+@media (min-width: 1600px) { .container { max-width: 1350px; } }
+
+h1 {
+	padding-bottom: 3px;
+	border-bottom: 1px solid rgba(138,43,226,0.8);
+	font-size: 3rem;
+}
+
+h2 { font-size: 2rem; }
+
+h1, h2 {
+	margin: 20px 0 20px 0;
+	color: #00ff00;
+	font-family: 'League Gothic Italic', sans-serif;
+	font-weight: normal;
+}
+
+p { margin: 0 0 10px 0; line-height: 1.5; }
+
+span { color: #00d4bc; }
+
+a { text-decoration: none; }
+
+p a:link,
+li a:link,
+p a:visited,
+li a:visited {
+	color: #00ff00;
+	border-bottom: 1px solid #00ff00;
+	text-decoration: none;
+	outline: none;
+}
+
+p a:hover,
+li a:hover,
+p a:active,
+li a:active {
+	background-color: #8a2be2;
+	color: #eee;
+	border-bottom: none;
+}
+
+li { line-height: 2; }
+
+img { border-style: none; }
+
+.img-responsive { max-width: 100%; max-height: 100%; }
+
+.float-right { float: right; }
+
+.logo { vertical-align: top; }
+
+table {
+	margin: 20px 0 20px 0;
+	border-collapse: collapse;
+	border-spacing: 2px;
+}
+
+tbody { display: table-row-group; vertical-align: middle; }
+
+table, tr, th { padding: 5px 10px; }
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+}
+
+tr:hover { background-color: rgba(204,204,204,0.3); }
+
+th {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+	text-align: left;
+}
+
+td { display: table-cell; vertical-align: middle; }
+
+table > tbody > tr > th { padding: 5px 10px; background-color: rgba(184,184,184,0.3); }
+
+table > tbody > tr > td { padding: 7px 10px; }
+
+table > tbody > tr + tr > td { border-top: 1px solid rgba(204,204,204,0.5); }
+
+code {
+	color: rgba(238,238,238,1);
+	background-color: rgba(0,0,0,1);
+	border: 1px solid rgba(138,43,226,1);
+	margin: 0;
+	padding: 3px 5px;
+	word-break: break-all;
+}
+
+table code { padding: 1px 5px; }
