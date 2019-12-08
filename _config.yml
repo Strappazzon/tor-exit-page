@@ -3,3 +3,6 @@ description: "An alternative design to the default Tor exit router page."
 baseurl: "/tor-exit-page"
 plugins:
   - jekyll-redirect-from
+exclude:
+  - Gemfile
+  - redirects.json
