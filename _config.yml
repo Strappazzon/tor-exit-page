@@ -26,4 +26,5 @@ destination: _output
 sass:
   style: compressed
 exclude:
+  - build.sh
   - LICENSE.txt
