@@ -1,5 +1,5 @@
 title: "Tor Exit Router Page"
-description: "An alternative design to the default Tor exit router page."
+description: "Alternative design to the default Tor exit router page."
 baseurl: "/tor-exit-page"
 plugins:
   - jekyll-redirect-from
