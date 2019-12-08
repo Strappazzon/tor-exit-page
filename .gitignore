@@ -1,0 +1,5 @@
+# Jekyll metadata
+_output/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata

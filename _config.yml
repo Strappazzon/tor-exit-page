@@ -1,0 +1,29 @@
+# This config file is meant for settings that affect the whole notice page, values
+# which you are expected to set up once and rarely edit after that. If you look in
+# the HTML file, you will see them accessed via {{ site.title }} and so on.
+#
+# BEFORE YOU START EDITING ANY VARIABLE, PLEASE REFER TO THE README FILE
+# https://github.com/Strappazzon/tor-exit-page/blob/master/.github/README.md
+#
+# For technical reasons, this file is NOT reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Page metadata
+title: "This is a Tor Exit Router" # Mandatory. Title of the page.
+#description: "This is a Tor Exit Router" # Optional. Page description.
+
+# Page options
+ip: "198.51.100.42" # Optional. IP address of your Tor exit router.
+name: "First Last" # Mandatory. Your full name, name or username.
+email: "your.email@domain.tld" # Mandatory. Your contact email.
+#pgp: "http://example.net/publickey.asc" # Optional. URL of your PGP key.
+sections:
+  dmca: true # Mandatory. Wether to show the DMCA section or not.
+  credits: true # Mandatory. Wether to show the Credits footer or not.
+
+# Page generation options
+destination: _output
+sass:
+  style: compressed
+exclude:
+  - LICENSE.txt

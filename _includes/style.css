@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+::selection {
+	background: #fff;
+	color: #000;
+}
+
+body {
+	margin: 10px auto 20px auto;
+	width: 80vw;
+	max-width: 1300px;
+	background: #000;
+	color: #fff;
+	font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+	font-size: 14px;
+}
+
+.container,
+.credits {
+	width: 100%;
+}
+
+.container {
+	padding: 20px;
+	border: 5px solid #8a2be2;
+}
+
+.credits {
+	padding: 20px 20px 0 20px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+h1 {
+	margin: 20px 0 20px 0;
+	color: #00ff00;
+	font-family: Verdana, Geneva, Thaoma, sans-serif;
+	font-size: 2rem;
+	text-align: center;
+}
+
+p {
+	margin: 0 0 20px 0;
+	line-height: 1.5;
+}
+
+p:last-child {
+	margin: 0;
+}
+
+span {
+	color: #00d4bc;
+}
+
+a:link,
+a:visited {
+	color: #00ff00;
+	border-bottom: 1px solid #00ff00;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover,
+a:active {
+	background: #8a2be2;
+	color: #eee;
+	border-bottom: none;
+}
+
+hr {
+	box-sizing: content-box;
+	margin: 1rem 0 1rem 0;
+	padding: 0;
+	height: 0;
+	border: 0;
+	border-top: 3px solid #8a2be2;
+	text-align: center;
+}
