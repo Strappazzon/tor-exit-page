@@ -14,10 +14,10 @@ You must configure the notice page before start using it. To do so, open **_conf
 
 <table>
   <tr>
-    <th>Variable</th>
-    <th>Type</th>
-    <th>Mandatory?</th>
-    <th>Description</th>
+    <th align="left">Variable</th>
+    <th align="left">Type</th>
+    <th align="left">Mandatory?</th>
+    <th align="left">Description</th>
   </tr>
   <tr>
     <td><code>title:</code></td>
