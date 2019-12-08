@@ -14,7 +14,7 @@ You must configure the notice page before start using it. To do so, open **_conf
 
 <table>
   <tr>
-    <th align="leftt">Variable</th>
+    <th>Variable</th>
     <th>Type</th>
     <th>Mandatory?</th>
     <th>Description</th>
@@ -34,7 +34,7 @@ You must configure the notice page before start using it. To do so, open **_conf
     <td>String</td>
     <td>No</td>
     <td>
-      <b>Enabled by default.</b>
+      <b>Disabled by default.</b>
       <br>
       The description meta tag of the page.
     </td>
