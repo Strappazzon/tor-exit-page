@@ -6,14 +6,9 @@ layout: none
 <head>
 	<meta charset="utf-8">
 	<title>{{ site.title }}</title>
-	{% if site.description != null %}
-	<meta name="description" content="{{ site.description }}">
-	{% endif %}
+	{% if site.description != null %}<meta name="description" content="{{ site.description }}">{% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	{% capture style %}
-	{% include style.css %}
-	{% endcapture %}
-	<style>{{ style | scssify }}</style>
+	{% capture style %}{% include style.css %}{% endcapture %}<style>{{ style | scssify }}</style>
 </head>
 <body>
 	<div class="container">
