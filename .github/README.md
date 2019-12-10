@@ -45,13 +45,13 @@ If you need help with YAML syntax, here are some quick references for you:
     </td>
   </tr>
   <tr>
-    <td><code>ip:</code></td>
-    <td>String</td>
+    <td><code>ips:</code></td>
+    <td>String Array</td>
     <td>No</td>
     <td>
       <b>Enabled by default.</b>
       <br>
-      The IP address of your Tor exit router that serves the notice page.
+      The IP address(es) of your Tor exit router(s) that serves the notice page.
     </td>
   </tr>
   <tr>
