@@ -5,6 +5,10 @@
 # BEFORE YOU START EDITING ANY VARIABLE, PLEASE REFER TO THE README FILE
 # https://github.com/Strappazzon/tor-exit-page/blob/master/.github/README.md
 #
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml
+#
 # For technical reasons, this file is NOT reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 

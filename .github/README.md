@@ -12,6 +12,11 @@ Please read through this page before using the notice page, there are some setti
 
 You must configure the notice page before start using it. To do so, open **_config.yml** with a source code editor like [Notepad++](https://notepad-plus-plus.org) and start adjusting the variables to your needs.
 
+If you need help with YAML syntax, here are some quick references for you:
+
+- <https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml>
+- <https://learnxinyminutes.com/docs/yaml>
+
 <table>
   <tr>
     <th align="left">Variable</th>
