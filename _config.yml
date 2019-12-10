@@ -17,7 +17,9 @@ title: "This is a Tor Exit Router" # Mandatory. Title of the page.
 #description: "This is a Tor Exit Router" # Optional. Page description.
 
 # Page options
-ip: "198.51.100.42" # Optional. IP address of your Tor exit router.
+ips: # Optional. IP address(es) of your Tor exit router(s).
+  - "198.51.100.42"
+  - "198.51.100.43"
 name: "First Last" # Mandatory. Your full name, name or username.
 email: "your.email@domain.tld" # Mandatory. Your contact email.
 #pgp: "http://example.net/publickey.asc" # Optional. URL of your PGP key.

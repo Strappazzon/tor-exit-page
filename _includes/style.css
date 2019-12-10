@@ -57,6 +57,29 @@ p:last-child {
 	margin: 0;
 }
 
+ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	line-height: 1.5;
+	margin: 0 10px 0 10px;
+}
+
+li::before {
+	content: "\003E\0020";
+	font-weight: bold;
+}
+
+li:last-child {
+	margin-bottom: 20px;
+}
+
 span {
 	color: #00d4bc;
 }
