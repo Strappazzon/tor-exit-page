@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta Data -->
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ page.description }}">
+	<meta name="keywords" content="tor,tor exit,tor exit router,tor exit page">
+	<meta name="author" content="Alberto Strappazzon">
+	<meta name="generator" content="Jekyll v{{ jekyll.version }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#b62df1">
+	<!-- Open Graph Data -->
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:description" content="{{ page.description }}">
+	<meta property="og:url" content="{{ site.baseurl | prepend: site.url }}">
+	<meta property="og:image" content="{{ site.baseurl | prepend: site.url }}/static/ogimage.png">
+	<!-- Link Relationships -->
+	<link rel="canonical" href="{{ site.url }}{{ page.url | replace: 'index.html',''}}">
+	<!-- Favicons -->
+	<link rel="icon" type="image/png" href="{{ site.baseurl | prepend: site.url }}/static/favicon.png">
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="{{ site.baseurl | prepend: site.url }}/static/styles.css">
+</head>
+<body>
+	<div class="container">
+		{{ content }}
+	</div>
+</body>
+</html>

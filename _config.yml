@@ -1,3 +1,11 @@
-title: "Tor Exit Router Page"
-description: "Alternative design to the default Tor exit router page."
 baseurl: "/tor-exit-page"
+
+# Markdown
+markdown: kramdown
+kramdown:
+  html_to_native: true
+
+# CSS
+sass:
+  sass_dir: "static"
+  style: compressed
