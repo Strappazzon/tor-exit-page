@@ -14,8 +14,8 @@ You must configure the notice page before start using it. To do so, open **_conf
 
 If you need help with YAML syntax, here are some quick references for you:
 
-- <https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml>
-- <https://learnxinyminutes.com/docs/yaml>
+* <https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml>
+* <https://learnxinyminutes.com/docs/yaml>
 
 <table>
   <tr>
@@ -106,9 +106,9 @@ When you're done adjusting the configuration, [build](#Build) the page.
 
 ## Build
 
-- Install [Ruby](https://www.ruby-lang.org)
-- Install [Jekyll](https://jekyllrb.com/docs/installation/#guides)
-- Run `jekyll b`
+* Install [Ruby](https://www.ruby-lang.org)
+* Install [Jekyll](https://jekyllrb.com/docs/installation/#guides)
+* Run `jekyll build`
 
 The **index.html** file will be inside the **_output** folder.
 
@@ -116,7 +116,7 @@ The **index.html** file will be inside the **_output** folder.
 
 Open your **torrc** configuration file and point `DirPortFrontPage` to the `index.html` file you built before. Make sure `DirPort` is on TCP port 80.
 
-If `DirPort` is not on TCP port 80, you can setup a web server like [nginx](https://nginx.org) or [Caddy](https://caddyserver.com).
+If `DirPort` is not on TCP port 80, you can setup a web server like [nginx](https://nginx.org) or [Apache](https://httpd.apache.org/).
 
 For more information, please consult the [official documentation](https://community.torproject.org/relay/setup/exit/).
 
