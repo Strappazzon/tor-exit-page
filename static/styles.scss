@@ -131,12 +131,15 @@ table {
 		border-collapse: collapse;
 		border-spacing: 2px;
 	}
-	& > tbody > tr > th {
+	& > thead > tr > th {
 		padding: 5px 10px;
 		background-color: rgba(184, 184, 184, 0.3);
 	}
 	& > tbody > tr > td {
 		padding: 7px 10px;
+	}
+	& > thead > tr > th {
+		border-bottom: 1px solid rgba(204, 204, 204, 0.5);
 	}
 	& > tbody > tr + tr > td {
 		border-top: 1px solid rgba(204, 204, 204, 0.5);
