@@ -9,3 +9,7 @@ kramdown:
 sass:
   sass_dir: "static"
   style: compressed
+
+# Excluded files
+exclude:
+  - README.md
