@@ -34,3 +34,4 @@ sass:
 exclude:
   - build.sh
   - LICENSE.txt
+  - README.md
