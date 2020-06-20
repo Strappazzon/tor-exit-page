@@ -23,90 +23,16 @@ If you need help with YAML syntax, here are some quick references for you:
 * <https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml>
 * <https://learnxinyminutes.com/docs/yaml>
 
-<table>
-  <tr>
-    <th align="left">Variable</th>
-    <th align="left">Type</th>
-    <th align="left">Mandatory?</th>
-    <th align="left">Description</th>
-  </tr>
-  <tr>
-    <td><code>title:</code></td>
-    <td>String</td>
-    <td>Yes</td>
-    <td>
-      The title of the page.
-      <br>
-      This will also appear in the page as a <code>h1</code> heading.
-    </td>
-  </tr>
-  <tr>
-    <td><code>description:</code></td>
-    <td>String</td>
-    <td>No</td>
-    <td>
-      <b>Disabled by default.</b>
-      <br>
-      The description meta tag of the page.
-    </td>
-  </tr>
-  <tr>
-    <td><code>ips:</code></td>
-    <td>String Array</td>
-    <td>No</td>
-    <td>
-      <b>Enabled by default.</b>
-      <br>
-      The IP address(es) of your Tor exit router(s) that serves the notice page.
-    </td>
-  </tr>
-  <tr>
-    <td><code>name:</code></td>
-    <td>String</td>
-    <td>Yes</td>
-    <td>Your full name, name or username by which you are known online.</td>
-  </tr>
-  <tr>
-    <td><code>email:</code></td>
-    <td>String</td>
-    <td>Yes</td>
-    <td>Your contact email that will also receive the complaints.</td>
-  </tr>
-  <tr>
-    <td><code>pgp:</code></td>
-    <td>String</td>
-    <td>No</td>
-    <td>
-      <b>Disabled by default.</b>
-      <br>
-      The public PGP key associated to your contact email address.
-    </td>
-  </tr>
-  <tr>
-    <td><code>dmca:</code></td>
-    <td>Boolean</td>
-    <td>Yes</td>
-    <td>
-      If the machine is located outside of the USA you may hide this section.
-      <br>
-      <b>true</b> (Default) Displays the DMCA law section on the page.
-      <br>
-      <b>false</b> Hides the DMCA law section on the page.
-    </td>
-  </tr>
-  <tr>
-    <td><code>credits:</code></td>
-    <td>Boolean</td>
-    <td>Yes</td>
-    <td>
-      Controls the credits section that links back to my website and this repository.
-      <br>
-      <b>true</b> (Default) Displays the credits footer on the page.
-      <br>
-      <b>false</b> Hides the credits footer on the page.
-    </td>
-  </tr>
-</table>
+| Variable       | Type         | Mandatory? | Description                                                                                                                                                                                           |
+|----------------|--------------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `title:`       | String       | Yes        | The title of the page. <br> This will also appear in the page as a `h1` heading.                                                                                                                      |
+| `description:` | String       | No         | **Disabled by default.** <br> The description meta tag of the page.                                                                                                                                   |
+| `ips:`         | String Array | No         | **Enabled by default.** <br> The IP address(es) of your Tor exit router(s) that serves the notice page.                                                                                               |
+| `name:`        | String       | Yes        | Your full name, name or username by which you are known online.                                                                                                                                       |
+| `email:`       | String       | Yes        | Your contact email that will also receive the complaints.                                                                                                                                             |
+| `pgp:`         | String       | No         | **Disabled by default.** <br> The public PGP key associated to your contact email address.                                                                                                            |
+| `dmca:`        | Boolean      | Yes        | If the machine is located outside of the USA you may hide this section. <br> **true** (Default) Displays the DMCA law section on the page. <br> **false** Hides the DMCA law section on the page.     |
+| `credits:`     | Boolean      | Yes        | Controls the credits section that links back to my website and this repository. <br> **true** (Default) Displays the credits footer on the page. <br> **false** Hides the credits footer on the page. |
 
 When you're done adjusting the configuration, [build](#Build) the page.
 
