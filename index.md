@@ -18,7 +18,7 @@ Please read through this page before using the notice page, there are some setti
 
 ![](https://strappazzon.github.io/tor-exit-page/static/screenshot.png)
 
-A live demo is available [here](https://strappazzon.github.io/tor-exit-page/demo/).
+A live demo is available [here](https://strappazzon.github.io/tor-exit-page/demo).
 
 ## Configuration
 
