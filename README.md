@@ -8,6 +8,12 @@ This notice is intended to be placed on a virtual host for a domain that your To
 
 Please read through this page before using the notice page, there are some settings that you must adjust.
 
+## Preview
+
+![](https://strappazzon.github.io/tor-exit-page/static/screenshot.png)
+
+A live demo is available [here](https://strappazzon.github.io/tor-exit-page/demo).
+
 ## Configuration
 
 You must configure the notice page before start using it. To do so, open **_config.yml** with a source code editor like [Notepad++](https://notepad-plus-plus.org) and start adjusting the variables to your needs.
