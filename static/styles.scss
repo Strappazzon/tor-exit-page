@@ -92,16 +92,15 @@ a {
 	& {
 		text-decoration: none;
 	}
-	&:link:not(.badge),
-	&:visited:not(.badge) {
+	&:link,
+	&:visited {
 		color: #00ff00;
 		border-bottom: 1px solid #00ff00;
 		text-decoration: none;
 		outline: none;
 	}
-
-	&:hover:not(.badge),
-	&:active:not(.badge) {
+	&:hover,
+	&:active {
 		background-color: #8a2be2;
 		color: #eee;
 		border-bottom: none;

@@ -4,18 +4,7 @@ title: "Tor Exit Router Page"
 description: "Alternative design to the default Tor exit router page."
 ---
 
-<h1 id="tor-exit-page">
-	Tor Exit Router Page&nbsp;&middot;&nbsp;
-	<a class="badge" href="{{ site.baseurl | prepend: site.url }}/demo">
-		<img src="https://img.shields.io/website?down_color=%23d10028&down_message=Offline&label=Demo&style=flat&up_color=%238a2be2&up_message=Online&url=https%3A%2F%2Fstrappazzon.xyz/tor-exit-page/demo">
-	</a>
-	<a class="badge" href="https://github.com/Strappazzon/tor-exit-page/blob/master/LICENSE.txt">
-		<img src="https://img.shields.io/github/license/Strappazzon/tor-exit-page?color=%2300d4bc&label=License&logo=Apache&logoColor=%23fff&style=flat">
-	</a>
-	<a class="badge" href="https://github.com/Strappazzon/tor-exit-page">
-		<img src="https://img.shields.io/badge/Source%20Code-%23444444?style=flat&logo=GitHub">
-	</a>
-</h1>
+# Tor Exit Router Page
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Antu_tor-browser.svg/512px-Antu_tor-browser.svg.png" align="right" height="100px" width="100px">
 
