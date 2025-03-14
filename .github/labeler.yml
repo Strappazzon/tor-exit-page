@@ -1,0 +1,20 @@
+cicd:
+  - ".github/workflows/**"
+
+config:
+  - ".github/*.yml"
+  - ".vscode/**"
+  - "_config.yml"
+  - ".editorconfig"
+  - ".gitattributes"
+  - ".gitignore"
+  - "**/.markdownlint.yml"
+
+dependencies:
+  - "Gemfile"
+  - "Gemfile.lock"
+
+documentation:
+  - ".github/CONTRIBUTING.md"
+  - "**/README.md"
+  - "SUPPORT.md"

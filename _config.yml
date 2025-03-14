@@ -41,7 +41,7 @@ sections:
 
 exclude:
   - LICENSE.txt
-  - README.md
+  - SUPPORT.md
 
 includes_dir: _components
 
