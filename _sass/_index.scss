@@ -1,0 +1,135 @@
+:root {
+  --bg-color: #fff;
+  --fg-color: #000;
+  --fg-color--light: #eee;
+
+  --brand-green: #4e6a20;
+  --brand-purple: #7d4698;
+  --brand-teal: #038674;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --fg-color: #fff;
+
+    --brand-green: #00ff00;
+    --brand-purple: #8a2be2;
+    --brand-teal: #6fc8B7;
+
+    color-scheme: dark;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: var(--bg-color);
+  background-color: var(--fg-color);
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  max-width: 1000px;
+  color: var(--fg-color);
+  background-color: var(--bg-color);
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  border: 5px solid var(--brand-purple);
+
+  .title {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    svg {
+      max-height: 64px;
+    }
+
+    h1 {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Segoe UI Symbol';
+      font-size: 2rem;
+      color: var(--brand-green);
+      margin: 1rem 0 1rem 0;
+    }
+  }
+}
+
+p {
+  margin: 0 0 1.125rem 0;
+  line-height: 1.5;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &.docs {
+    text-align: center;
+  }
+}
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    line-height: 1.5;
+    margin: 0 0.825rem 0 0.825rem;
+
+    &::before {
+      content: '> ';
+    }
+
+    &:last-child {
+      margin-bottom: 1.125rem;
+    }
+  }
+}
+
+span {
+  color: var(--brand-teal);
+}
+
+a {
+  color: var(--brand-green);
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: var(--fg-color--light);
+    background-color: var(--brand-purple);
+    text-decoration: none;
+  }
+}
+
+hr {
+  box-sizing: content-box;
+  margin: 1rem 0 1rem 0;
+  padding: 0;
+  height: 0;
+  border: 0;
+  border-top: 3px solid var(--brand-purple);
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+
+  p {
+    margin: 0;
+  }
+}
