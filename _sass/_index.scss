@@ -71,8 +71,13 @@ p {
     margin: 0;
   }
 
-  &.docs {
+  &.docs,
+  &.overview {
     text-align: center;
+  }
+
+  &.overview {
+    margin: 2rem 0 2rem 0;
   }
 }
 

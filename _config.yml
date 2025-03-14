@@ -16,14 +16,24 @@
 # ---------------------------------------------------------
 
 title: "This is a Tor Exit Router"
+
+# Exit router IP(s)
 ips:
   - "198.51.100.42"
   - "198.51.100.43"
+
+# Contact details
 name: "First Last"
 email: "your.email@domain.tld"
 pgp: "https://example.net/pubkey.asc"
+
+# Whether P2P ports on the exit router are blocked or not
+p2p: true
+
+# Enabled sections
 sections:
   dmca: true
+  ecpa: false
   credits: true
 
 # Page generation options
