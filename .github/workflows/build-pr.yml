@@ -1,0 +1,34 @@
+name: Build Website (From PR)
+
+on:
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - ".*/**"
+      - ".*"
+      - "!.ruby-version"
+      - "!.tool-versions"
+      - "LICENSE*"
+      - "SUPPORT.md"
+
+jobs:
+  build:
+    name: Build Website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4.2.2
+
+      - name: Setup Ruby
+        env:
+          BUNDLE_SPECIFIC_PLATFORM: 1
+        uses: ruby/setup-ruby@v1.224.0
+        with:
+          bundler-cache: true
+
+      - name: Build with Jekyll
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build
