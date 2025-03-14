@@ -24,8 +24,8 @@ ips:
 
 # Contact details
 name: "First Last"
-email: "your.email@domain.tld"
-pgp: "https://example.net/pubkey.asc"
+email: "email@domain.tld"
+#pgp: "https://example.net/pubkey.asc"
 
 # Whether P2P ports on the exit router are blocked or not
 p2p: true
