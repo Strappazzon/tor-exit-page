@@ -1,0 +1,115 @@
+{
+	"[json][jsonc][liquid]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+		"editor.insertSpaces": true,
+		"editor.quickSuggestions": {
+			"other": "off"
+		},
+		"editor.tabSize": 2,
+		"files.trimTrailingWhitespace": false
+	},
+	"[scminput]": {
+		"editor.rulers": [
+			70
+		]
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "vscode.css-language-features",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": true,
+		"editor.rulers": [
+			160
+		],
+		"editor.tabSize": 2
+	},
+	"[svg]": {
+		"editor.defaultFormatter": "jock.svg",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"editor.defaultFormatter": null,
+	"editor.detectIndentation": false,
+	"editor.rulers": [],
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"Gemfile": "Gemfile.lock,.ruby-version,.tool-versions"
+	},
+	"files.associations": {
+		"*.html": "liquid"
+	},
+	"files.eol": "\n",
+	"files.exclude": {
+		".bundle": true,
+		".jekyll-cache": true,
+		"*.swp": true,
+		"_site*": true
+	},
+	"files.insertFinalNewline": true,
+	"files.readonlyInclude": {
+		".ruby-lsp/**/*": true,
+		"_site/**/*.*": true,
+		"Gemfile.lock": true,
+		"**/LICENSE*": true
+	},
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"git.inputValidation": true,
+	"git.inputValidationLength": 70,
+	"git.inputValidationSubjectLength": 70,
+	"liquid.config.method": "workspace",
+	"liquid.engine": "jekyll",
+	"markdown.validate.enabled": false,
+	"rubyLsp.formatter": "none",
+	"scss.completion.completePropertyWithSemicolon": true,
+	"scss.format.braceStyle": "collapse",
+	"scss.format.enable": true,
+	"scss.format.newlineBetweenRules": true,
+	"scss.format.newlineBetweenSelectors": false,
+	"scss.format.preserveNewLines": true,
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"scss.lint.argumentsInColorFunction": "error",
+	"scss.lint.boxModel": "ignore",
+	"scss.lint.duplicateProperties": "error",
+	"scss.lint.emptyRules": "warning",
+	"scss.lint.float": "ignore",
+	"scss.lint.fontFaceProperties": "error",
+	"scss.lint.hexColorLength": "error",
+	"scss.lint.idSelector": "ignore",
+	"scss.lint.ieHack": "error",
+	"scss.lint.important": "warning",
+	"scss.lint.propertyIgnoredDueToDisplay": "error",
+	"scss.lint.universalSelector": "ignore",
+	"scss.lint.vendorPrefix": "warning",
+	"scss.lint.zeroUnits": "warning",
+	"scss.validate": true,
+	"search.exclude": {
+		"**/.jekyll-cache": true,
+		"**/.ruby-lsp": true,
+		"**/_site": true
+	},
+	"svg.preview.background": "transparent",
+	"terminal.integrated.defaultProfile.windows": "WSL",
+	"terminal.integrated.profiles.windows": {
+		"WSL": {
+			"icon": "terminal-linux",
+			"path": "${env:windir}\\system32\\wsl.exe"
+		}
+	},
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-issue-config.json": ".github/ISSUE_TEMPLATE/config.yml"
+	}
+}

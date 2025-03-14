@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"DavidAnson.vscode-markdownlint",
+		"EditorConfig.EditorConfig",
+		"jock.svg",
+		"shopify.ruby-lsp",
+		"sissel.shopify-liquid",
+		"yzhang.markdown-all-in-one"
+	],
+	"unwantedRecommendations": [
+		"rebornix.ruby",
+		"wingrunr21.vscode-ruby"
+	]
+}
