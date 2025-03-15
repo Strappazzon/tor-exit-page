@@ -27,6 +27,7 @@ line-length: false
 # HTML elements whitelist
 no-inline-html:
   allowed_elements:
+    - br
     - kbd
 
 # Trailing punctuation whitelist
