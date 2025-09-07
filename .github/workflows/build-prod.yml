@@ -1,4 +1,4 @@
-name: Build Website (Production)
+name: Build Page (Production)
 
 on:
   push:
@@ -13,18 +13,9 @@ on:
       - "SUPPORT.md"
   workflow_dispatch: {}
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
-
 jobs:
-  build:
-    name: Build Website
+  main:
+    name: Build Page
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -43,18 +34,14 @@ jobs:
         run: |
           bundle exec jekyll build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3.0.1
-        with:
-          path: _site
-
-  deploy:
-    needs: build
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4.0.5
+      - name: Production Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: dist
+          FOLDER: _site
+          SQUASH_HISTORY: true
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "Build: ({sha}) {msg}"
+          COMMIT_NAME: github-actions[bot]
+          COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com

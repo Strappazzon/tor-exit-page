@@ -1,4 +1,4 @@
-name: Build Website (Test)
+name: Build Page (Test)
 
 on:
   push:
@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    name: Build Website
+    name: Build Page
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo

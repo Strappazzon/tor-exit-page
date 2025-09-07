@@ -1,4 +1,4 @@
-name: Build Website (From PR)
+name: Build Page (From PR)
 
 on:
   pull_request:
@@ -14,7 +14,7 @@ on:
 
 jobs:
   build:
-    name: Build Website
+    name: Build Page
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
