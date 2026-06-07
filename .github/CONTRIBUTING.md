@@ -24,9 +24,11 @@ If you then still need to ask a question and need clarification you can [create 
 - Add one issue at a time. Do not put multiple issues into one thread.
 - When reporting a bug please describe the steps which reproduce the problem.
 - All issues must be properly formatted with Markdown.  
-  If you don't know what that is, read [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before submitting an issue.
+  If you don't know what that is, read
+  [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+  before submitting an issue.
 
-### DO NOT post "+1" comments
+### DO NOT Post "+1" comments
 
 If you don't have any additional info/context to add but would like to indicate that you're affected by the issue, upvote the original issue.  
 See: [Add Reactions](https://github.blog/news-insights/product-news/add-reactions-to-pull-requests-issues-and-comments/)
@@ -37,8 +39,8 @@ Before you can start contributing, you'll need to set up your environment first.
 
 ### Dependencies
 
-This Tor Exit Router page is built with [Jekyll](https://jekyllrb.com/) so you will need [Ruby](https://www.ruby-lang.org) installed.  
-I recommend you install it using [rbenv](https://github.com/rbenv/rbenv), [asdf](https://github.com/asdf-vm/asdf), [frum](https://github.com/TaKO8Ki/frum) or other packaging system, before attempting to install the dependencies.
+This "Tor Exit Router" page is built with [Jekyll](https://jekyllrb.com/) so you will need [Ruby](https://www.ruby-lang.org) installed.  
+I recommend you install it using [asdf](https://github.com/asdf-vm/asdf) or [rbenv](https://github.com/rbenv/rbenv) before attempting to install the dependencies.
 
 Clone the repo and run `bundle install` to install the required dependencies.
 
@@ -60,11 +62,11 @@ Then navigate to <http://localhost:4000> in your web browser.
 
 Press <kbd>CTRL</kbd>+<kbd>C</kbd> to stop the web server.
 
-## Code style and Conventions
+## Code Style and Conventions
 
 ### Liquid
 
-The notice page is written in the Jekyll [Liquid](https://shopify.github.io/liquid/basics/variations/#jekyll) templating language.
+This "Tor Exit Router" page is written in the Jekyll [Liquid](https://shopify.github.io/liquid/basics/variations/#jekyll) templating language.
 
 #### Syntax
 
@@ -76,12 +78,12 @@ The notice page is written in the Jekyll [Liquid](https://shopify.github.io/liqu
 ```liquid
 {% comment %} bad {% endcomment %}
 <head>
-	<meta property="og:url" content='{{ site.url }}{{ page.url | replace: "index.html",""}}'>
+	<meta property="og:url" content='{{ site.url }}{{ page.url | replace: "index.html", ""}}'>
 </head>
 
 {% comment %} good {% endcomment %}
 <head>
-	<meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html',''}}">
+	<meta property="og:url" content="{{ site.url }}{{ page.url | replace: 'index.html', ''}}">
 </head>
 ```
 
@@ -137,7 +139,8 @@ Documentation is written in [GitHub Flavored Markdown](https://docs.github.com/e
 
 ## Submitting Changes
 
-- Make changes on a separate branch, not on the master branch, then send your changes as a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+- Make changes on a separate branch, not on the master branch, then send your changes as a
+  [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 - When submitting changes, you confirm that your code is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 - Please test your code before you submit changes. Untested code will **not** be merged!
 - Make sure your Pull Request is up-to-date with the rest of the codebase.
@@ -169,17 +172,3 @@ Fixes: https://github.com/Strappazzon/tor-exit-page/issues/513
 From dev and test, there are multiple branches related to what is being developed inside each branch.
 
 A branch name must be short and descriptive, all lowercase. For branches with multiple words use hyphens.
-
-## Repository Structure
-
-This is a brief description on how the repository files and folders are structured and what each one contains.  
-It only contains the most relevant files and folders as some of them are self-explanatory.
-
-```sh
-.
-├── _sass           # SCSS Stylesheets
-├── .github
-│   └── labeler.yml # "actions/labeler" configuration
-├── _config.yml     # Jekyll configuration
-└── SUPPORT.md      # Support resources
-```

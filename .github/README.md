@@ -1,22 +1,22 @@
-<!-- markdownlint-disable MD033 MD041 -->
+<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable-next-line MD041 -->
 <div align="center">
-  <img width="96" src="../_components/logo.svg" alt="Logo">
+  <img alt="Tor Logo" height="96" width="96" src="../_components/logo.svg">
+  <p>
+    <strong>Tor Exit Router Page</strong>
+    <br>
+    <em>Alternative design to the default Tor Project's page</em>
+  </p>
 </div>
-
-<div align="center">
-  <strong>Tor Exit Router Page</strong>
-</div>
-
-<p align="center">
-  <em>Alternative design to the default Tor Project's page</em>
-</p>
-<!-- markdownlint-enable MD033 MD041 -->
+<!-- markdownlint-enable MD033 -->
 
 ## About
 
-This is an alternative design to the [default "This is a Tor Exit Router" page](https://gitlab.torproject.org/tpo/core/tor/raw/HEAD/contrib/operator-tools/tor-exit-notice.html) provided by The Tor Project.
+This is an alternative design to the [default "This is a Tor Exit Router" page](https://gitlab.torproject.org/tpo/core/tor/raw/HEAD/contrib/operator-tools/tor-exit-notice.html)
+provided by The Tor Project.
 
-This notice is intended to be placed on a virtual host for a domain that your Tor exit router IP reverse resolves to, so that people who may be about to file an abuse complaint would check it first before bothering you or your ISP.
+This notice is intended to be placed on a virtual host for a domain that your Tor exit router IP reverse resolves to,
+so that people who may be about to file an abuse complaint would check it first before bothering you or your ISP.
 
 ## Getting Started
 
