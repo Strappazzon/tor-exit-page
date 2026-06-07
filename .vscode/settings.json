@@ -46,7 +46,7 @@
 	"editor.rulers": [],
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"Gemfile": "Gemfile.lock,.ruby-version,.tool-versions"
+		"Gemfile": "Gemfile.lock"
 	},
 	"files.associations": {
 		"*.html": "liquid"

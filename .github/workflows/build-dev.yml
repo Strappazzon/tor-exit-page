@@ -10,7 +10,6 @@ on:
     paths-ignore:
       - ".*/**"
       - ".*"
-      - "!.ruby-version"
       - "!.tool-versions"
       - "LICENSE*"
       - "SUPPORT.md"
