@@ -1,3 +1,4 @@
+#
 # This config file is meant for settings that affect the whole notice page, values
 # which you are expected to set up once and rarely edit after that. If you look in
 # the HTML file, you will see them accessed via {{ site.var_name }}.
@@ -6,14 +7,15 @@
 # https://github.com/Strappazzon/tor-exit-page/blob/-/.github/README.md
 #
 # If you need help with YAML syntax, here are some quick references for you:
-# - https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# - https://learnxinyminutes.com/docs/yaml
+# - https://learntheweb.courses/topics/markdown-yaml-cheat-sheet/#yaml
+# - https://learnxinyminutes.com/yaml/
 #
 # For technical reasons, this file is NOT reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
+#
 
 # Page options
-# ---------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 # Demo page notice
 demo_mode: true
@@ -21,14 +23,12 @@ demo_mode: true
 title: "This is a Tor Exit Router"
 
 # Exit router IP(s)
-ips:
-  - "198.51.100.42"
-  - "198.51.100.43"
+ips: null
 
 # Contact details
 name: "First Last"
 email: "email@domain.tld"
-#pgp: "https://example.net/pubkey.asc"
+pgp: null
 
 # Whether P2P ports on the exit router are blocked or not
 p2p: true
@@ -40,7 +40,7 @@ sections:
   credits: true
 
 # Page generation options
-# ---------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 exclude:
   - LICENSE.txt

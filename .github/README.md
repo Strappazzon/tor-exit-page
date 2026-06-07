@@ -27,15 +27,15 @@ To do so, open **_config.yml** with a source code editor and start adjusting the
 
 | Key                | Type     | Description                                                                                                                                                 |
 |--------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`            | String   | The title of the page.<br>This will appear in the browser tab, heading under the logo and page metadata.                                                    |
-| `ips`              | String[] | A list with one or more IPs of your Tor exit router.<br>Can be disabled.                                                                                    |
-| `name`             | String   | Your name or username by which you are known online.                                                                                                        |
-| `email`            | String   | The email that will receive the complaints.                                                                                                                 |
 | `demo_mode`        | Boolean  | **Default: `true`**<br>Demo page notice.<br>It will display under the header.                                                                               |
+| `title`            | String   | **Default: `This is a Tor Exit Router`**<br>The title of the page.<br>It will appear in the browser's tab, in the header under the logo and page meta tags. |
+| `ips`              | Sequence | **Default: `null`**<br>A list with one or more IPs of your Tor exit router.                                                                                 |
+| `name`             | String   | **Default: `First Last`**<br>Your name or username by which you are known online.                                                                           |
+| `email`            | String   | **Default: `email@domain.tld`**<br>The email that will receive the complaints.                                                                              |
 | `pgp`              | String   | **Default: `null`**<br>The URL to the public PGP key associated with the email that will receive the complaints.                                            |
 | `p2p`              | Boolean  | **Default: `true`**<br>Disable if common P2P ports are not blocked by your Tor exit router.                                                                 |
 | `sections.dmca`    | Boolean  | **Default: `true`**<br> Disable to hide the DMCA law section.                                                                                               |
-| `sections.ecpa`    | Boolean  | **Default: `false`**<br>US-only. Enable if you are a US operator.<br>More info [here](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act). |
+| `sections.ecpa`    | Boolean  | **Default: `false`**<br>US-only. Enable if you are a US operator.<br>[More info here](https://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act). |
 | `sections.credits` | Boolean  | **Default: `true`**<br>Disable to hide the footer that links back to my website and this repository.                                                        |
 
 ### Build
