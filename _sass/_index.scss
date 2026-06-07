@@ -6,6 +6,7 @@
   --brand-green: rgba(78, 106, 32, 1);
   --brand-purple: rgba(125, 70, 152, 1);
   --brand-teal: rgba(3, 134, 116, 1);
+  --brand-yellow: rgba(255, 191, 0, 1);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,6 +68,13 @@ aside {
 
   p {
     margin: 0;
+  }
+
+  &.demo {
+    width: 75%;
+    margin: 1.125rem auto;
+    padding: 1.125em;
+    border: 0.1875rem solid var(--brand-yellow);
   }
 }
 

@@ -23,6 +23,12 @@ layout: none
 			</header>
 
 			<article>
+				{% if site.demo_mode == true %}
+					<aside class="demo">
+						<p>This is a <strong>demo</strong> page and not an actual Tor exit router.</p>
+					</aside>
+				{% endif %}
+
 				<p>
 					You're likely seeing this page because you've had some issue with the traffic coming from
 					{% if site.ips != null %}

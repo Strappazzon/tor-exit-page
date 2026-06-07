@@ -31,6 +31,7 @@ To do so, open **_config.yml** with a source code editor and start adjusting the
 | `ips`              | String[] | A list with one or more IPs of your Tor exit router.<br>Can be disabled.                                                                                    |
 | `name`             | String   | Your name or username by which you are known online.                                                                                                        |
 | `email`            | String   | The email that will receive the complaints.                                                                                                                 |
+| `demo_mode`        | Boolean  | **Default: `true`**<br>Demo page notice.<br>It will display under the header.                                                                               |
 | `pgp`              | String   | **Default: `null`**<br>The URL to the public PGP key associated with the email that will receive the complaints.                                            |
 | `p2p`              | Boolean  | **Default: `true`**<br>Disable if common P2P ports are not blocked by your Tor exit router.                                                                 |
 | `sections.dmca`    | Boolean  | **Default: `true`**<br> Disable to hide the DMCA law section.                                                                                               |
