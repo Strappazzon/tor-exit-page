@@ -1,7 +1,7 @@
 # Lock Bundler version
 # https://stackoverflow.com/a/51788614
-if (version = Gem::Version.new(Bundler::VERSION)) < Gem::Version.new('2.4.5')
-  abort "Bundler version >= 2.4.5 is required. You are running #{version}."
+if (version = Gem::Version.new(Bundler::VERSION)) < Gem::Version.new('4.0.13')
+  abort "Bundler version >= 4.0.13 is required. You are running #{version}."
 end
 
 source 'https://rubygems.org'
